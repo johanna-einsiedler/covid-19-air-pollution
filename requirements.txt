@@ -4,7 +4,7 @@ jupyterlab
 pandas
 matplotlib
 seaborn
-shapefile
+pyshp
 datetime
 math
 sklearn
