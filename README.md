@@ -7,8 +7,10 @@ This respository contains code and examples to (1) train a long-term air polluti
 
 
 ## The Paper
-This code was created in the writing of a master thesis. The resulting paper can be found here:
+This code was created in the writing of a master thesis. The resulting paper can be found here: There you can find additional details on the theory behind this code and some applications.
 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johanna-einsiedler/covid-19-air-pollution/HEAD)
 
 ## Data 
 In order to run these scripts you need a dataset containing daily observations of the air pollutant you want to investigate (e.g. NO2, PM2.5), and the weather variables windspeed, wind direction, humidity and temperature. Additional weather data can easily be incorporated. For demonstration purposes, you can find data for 5 stations in East Switzerland in this repository ([Raw Swiss Data](./che/df_che.csv)).
