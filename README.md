@@ -35,5 +35,17 @@ The timeframe of the lockdowns (usually about 1 months) is too short to train a 
 ### Model Evaluation - Lockdown Model
 To evaluate the model performance of the lockdown model we again perform cross validation with a 3 day time periods as test sets.
 
+### Post Lockdown Period
+We further use the *pre-LD model* and the *LD model* to predict the period after the lockdown. These estimates can be used to infer how much a city has gone 'back to normal'.
+
+### Predict 2019
+Using the *LD-model* we make 'predictions' for the whole year of 2019, thus it can be estimated how air pollution levels would have changed if the city had been under lockdown for a whole year.
+
+
+## Plots
+The outputs of all this scripts can be visualised using the [Plots](Plots.ipynb) script.
+
+
+
 
 
