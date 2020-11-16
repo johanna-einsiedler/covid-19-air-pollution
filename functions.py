@@ -5,7 +5,6 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import shapefile as shp
 import matplotlib.pyplot as plt
-import geopandas as gpd
 import seaborn as sns
 from pygam import LinearGAM, LogisticGAM, s, f,l, GAM, te
 from statsmodels.stats.outliers_influence import variance_inflation_factor
@@ -17,7 +16,6 @@ import math
 import sklearn.mixture as mix
 import ipywidgets as widgets
 from ipywidgets import interact, interact_manual
-import re
 from scipy import stats
 from dateutil.relativedelta import relativedelta
 
