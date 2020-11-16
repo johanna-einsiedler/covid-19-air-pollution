@@ -7,3 +7,8 @@ seaborn
 pyshp
 datetime
 sklearn
+pygam
+statsmodels
+ipywidgets
+scipy
+dateutil
