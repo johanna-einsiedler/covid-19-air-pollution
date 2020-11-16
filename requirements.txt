@@ -1,0 +1,10 @@
+#python dependencies
+notebook
+jupyterlab
+pandas
+matplotlib
+seaborn
+shapefile
+datetime
+math
+sklearn
