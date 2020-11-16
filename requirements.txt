@@ -12,3 +12,4 @@ statsmodels
 ipywidgets
 scipy
 python-dateutil
+plotly-express
