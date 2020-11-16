@@ -42,10 +42,13 @@ We further use the *pre-LD model* and the *LD model* to predict the period after
 Using the *LD-model* we make 'predictions' for the whole year of 2019, thus it can be estimated how air pollution levels would have changed if the city had been under lockdown for a whole year.
 
 
-## Plots
-The outputs of all this scripts can be visualised using the [Plots](Plots.ipynb) script.
+## Plots & Analysis
+The outputs of all this scripts can be visualised using the [Plots](Plots.ipynb) script. It contains coe to obtain the following statistics and graphics
 
+### Model Selection Outcome
+Summarizes the outcome of the model selection algorithm, grouping of the variables can be inferred from [Dictionaries](dictionaries.py).
 
+![alt text](/che/plots/table_model_selection.png)
 
 
 
