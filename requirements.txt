@@ -6,5 +6,4 @@ matplotlib
 seaborn
 pyshp
 datetime
-math
 sklearn
