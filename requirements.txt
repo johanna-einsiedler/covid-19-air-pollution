@@ -11,4 +11,4 @@ pygam
 statsmodels
 ipywidgets
 scipy
-dateutil
+python-dateutil
