@@ -25,21 +25,21 @@ In the script [Change Estimation Transfer](Change_Estimation_Transfer.ipynb) the
 ### Prediction of the Lockdown Period
 In the next step, the trained model is used to predict air pollution during the lockdown period (Lockdown Dates for Austria, Switzerland & China are specified in the file [Dictionaries](dictionaries.py), sources are given in the paper). The difference to the observed values can be used as an estimate for the change of air pollution levels during the lockdown period.
 
-### Transfer Learning - Lodckdown Model
-The timeframe of the lockdowns (usually about 1 months) is too short to train a seperate GAM model on the data. However, we can create a model for the lockdown period (*LD-model*) using transfer learning, i.e. we keep all relationships between the pollutatnt and the weather variables fixed (it can be assumed that the influence of weather on pollution will not change significantly within one month) but do retraining for the variable 'weekday' which is used as a proxy for traffic.
+### Transfer Learning - Lockdown Model
+The timeframe of the lockdowns (usually about 1 month) is too short to train a seperate GAM model on the data. However, we can create a model for the lockdown period (*LD-model*) using transfer learning, i.e. we keep all relationships between the pollutant and the weather variables fixed (it can be assumed that the influence of weather on pollution will not change significantly within one month) but do retraining for the variable 'weekday' which is used as a proxy for traffic.
 
 ### Model Evaluation - Lockdown Model
-To evaluate the model performance of the lockdown model we again perform cross validation with a 3 day time periods as test sets.
+To evaluate the performance of the lockdown model we again perform cross validation with a 3 day time periods as test sets.
 
 ### Post Lockdown Period
-We further use the *pre-LD model* and the *LD model* to predict the period after the lockdown. These estimates can be used to infer how much a city has gone 'back to normal'.
+We further use the *pre-LD model* and the *LD model* to predict the period after the lockdown. These estimates can be used to infer how much a city has gone 'back-to-normal'.
 
 ### Predict 2019
 Using the *LD-model* we make 'predictions' for the whole year of 2019, thus it can be estimated how air pollution levels would have changed if the city had been under lockdown for a whole year.
 
 
 ## Plots & Analysis
-The outputs of all this scripts can be visualised using the [Plots](Plots.ipynb) script. It contains coe to obtain the following statistics and graphics
+The outputs of all this scripts can be visualised using the [Plots](Plots.ipynb) script. It contains code to obtain the following statistics and graphics
 
 ### Model Selection Outcome
 Summarizes the outcome of the model selection algorithm, grouping of the variables can be inferred from [Dictionaries](dictionaries.py).
@@ -52,7 +52,7 @@ Whisker plot that shows the model performance in cross validation for different 
 ![alt text](che/plots/table_cross_validation_performance.PNG)
 ![alt text](che/plots/whisker_plot_model_evaluation.png)
 
-### Wheather Coomparison
+### Wheather Comparison
 Boxplot that compares weather conditions in 2019 and 2020 during the time period of the lockdown.
 
 ![alt text](che/plots/weather_comparison_boxplot.png)
@@ -63,7 +63,7 @@ Summary table of observed pollutant values in 2020 during the lockdown, predicti
 
 ![alt text](che/plots/table_lockdown_summary.PNG)
 
-Time Series Plot of observed values 2020, observed values 2019, *LD model* prediction and *pre-lD model* prediction for different classes of stations (classification can be found in [Dictioniaries](dictionaries.py).
+Time Series Plot of observed values 2020, observed values 2019, *LD model* prediction and *pre-lD model* prediction for different classes of stations (classification can be found in [Dictionaries](dictionaries.py).
 
 ![alt text](che/plots/plot_lockdown_high_traffic.png)
 
@@ -83,3 +83,10 @@ Plot of the *pre-LD model* and *LD model* as well as true values in 2020 for the
 True values, *pre-LD model* estimates and *LD model* estimates for the whole year 2019.
 
 ![alt text](che/plots/plot_2019_high_traffic.png)
+
+
+### Authors
+Johanna Einsiedler johanna_einsiedler@gmx.at
+Olga Saukh saukh@csh.ac.at
+Yun Cheng chengyu@ethz.ch
+Franz Papst papst@csh.ac.at
