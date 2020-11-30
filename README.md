@@ -1,12 +1,12 @@
 # Understanding the Impact of COVID-19 on Local Air Pollution
 
+## Context
+This code was created in the writing of a master thesis and paper on the impact that the COVID-19 related lockdown measures during spring 2020 had on air pollution. The resulting paper can be found here: https://arxiv.org/abs/2011.10144
 
 ## What can you do with this code?
 This respository contains code and examples to (1) train a long-term air pollution prediction model with weather variables, (2) estimate the impact of COVID-19 related lockdowns on air pollution and (3) investigate the air pollution reduction potential in traffic. It can be applied to datasets for different countries.
 These notebooks can be run using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johanna-einsiedler/covid-19-air-pollution/HEAD).
 
-## Context
-This code was created in the writing of a master thesis. 
 
 ## Data 
 In order to run these scripts you need a dataset containing daily observations of the air pollutant you want to investigate (e.g. NO2, PM2.5), and the weather variables windspeed, wind direction, humidity and temperature. Additional weather data can easily be incorporated. 
