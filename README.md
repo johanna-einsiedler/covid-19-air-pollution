@@ -66,7 +66,7 @@ Time Series Plot of observed values 2020, observed values 2019, *LD model* predi
 
 ### Spatial Plot of Changes in Pollutant
 
-![alt text](che/plots/che_spatial_plot.PNG)
+![alt text](che/plots/che_spatial.PNG)
 
 
 ### Predict 2019
