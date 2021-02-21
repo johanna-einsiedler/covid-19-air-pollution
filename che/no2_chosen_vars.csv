@@ -1,0 +1,6 @@
+,0,1,2,3,4,5,6
+Opfikon_Balsberg,lagpca_halfyear,wy,weekday,pca,ws_lag3,wx,h
+StGallen_Blumenbergplatz,t_lag3,ws,wx_lag1,wy_lag2,wx,,
+StGallen_Stuelegg,t,ws,pca,wx_lag3,wy_lag3,h,
+Zuerich_Schimmelstrasse,ws_lag3,day_year,lagpca_1week,lagpca_8weeks,wx_lag2,,
+Zuerich_Stampfenbachstrasse,lagws_1week,day_year,lagpca_1week,lagpca_12weeks,wx,,
