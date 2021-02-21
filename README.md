@@ -49,7 +49,7 @@ Summarizes the outcome of the model selection algorithm, grouping of the variabl
 ### Model Evaluation
 Whisker plot that shows the model performance in cross validation for different test training set length + overview of model evaluation statistics.
 
-![alt text](che/plotscross_validation_performance.PNG)
+![alt text](che/plots/cross_validation_performance.PNG)
 
 ### Wheather Comparison
 Boxplot that compares weather conditions in 2019 and 2020 during the time period of the lockdown.
@@ -66,7 +66,7 @@ Time Series Plot of observed values 2020, observed values 2019, *LD model* predi
 
 ### Spatial Plot of Changes in Pollutant
 
-![alt text](che/plots/che_spatial.PNG)
+![alt text](che/plots/che_spatial.png)
 
 
 ### Predict 2019
