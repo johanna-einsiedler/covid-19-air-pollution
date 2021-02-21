@@ -49,7 +49,6 @@ Summarizes the outcome of the model selection algorithm, grouping of the variabl
 ### Model Evaluation
 Whisker plot that shows the model performance in cross validation for different test training set length + overview of model evaluation statistics.
 
-![alt text](che/plots/table_cross_validation_performance.PNG)
 ![alt text](che/plots/whisker_plot_model_evaluation.png)
 
 ### Wheather Comparison
@@ -61,8 +60,6 @@ Boxplot that compares weather conditions in 2019 and 2020 during the time period
 
 Summary table of observed pollutant values in 2020 during the lockdown, prediction of the *pre-LD* model, the dummy prediction (i.e. when not including the weekday variable), the *LD-model* prediction and the observed values of the pollutant in 2019 during the same time period.
 
-![alt text](che/plots/table_lockdown_summary.PNG)
-
 Time Series Plot of observed values 2020, observed values 2019, *LD model* prediction and *pre-lD model* prediction for different classes of stations (classification can be found in [Dictionaries](dictionaries.py).
 
 ![alt text](che/plots/plot_lockdown_high_traffic.png)
@@ -71,18 +68,10 @@ Time Series Plot of observed values 2020, observed values 2019, *LD model* predi
 
 ![alt text](che/plots/spatial_plot.PNG)
 
-### Post Lockdown
-
-Plot of the *pre-LD model* and *LD model* as well as true values in 2020 for the period after the lockdown.
-
-![alt text](che/plots/post_lockdown_high_traffic.png)
-
 
 ### Predict 2019
 
 True values, *pre-LD model* estimates and *LD model* estimates for the whole year 2019.
-
-![alt text](che/plots/plot_2019_high_traffic.png)
 
 
 ### Authors
