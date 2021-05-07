@@ -44,7 +44,7 @@ The outputs of all this scripts can be visualised using the [Plots](Plots.ipynb)
 ### Model Selection Outcome
 Summarizes the outcome of the model selection algorithm, grouping of the variables can be inferred from [Dictionaries](dictionaries.py).
 
-![alt text](che/plots/table_model_selection.PNG)
+![alt text](che/plots/model_selection_outcome.png)
 
 ### Model Evaluation
 Whisker plot that shows the model performance in cross validation for different test training set length + overview of model evaluation statistics.
